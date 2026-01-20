@@ -13,7 +13,7 @@ function Conductivity({ conductivity }) {
         </CardTitle>
       </CardHeader>
       <CardContent className="items-center text-center  font-bold text-xl flex flex-col justify-center gap-4">
-        {`${conductivity} µS/cm`}
+        {`${conductivity.toFixed(2)} µS/cm`}
       </CardContent>
     </Card>
   );
