@@ -105,7 +105,7 @@ export default function Home() {
   return (
     <div className="py-5">
       <DrinkWaterAmount todayUsage={todayUsage} goal={goal.goal} />
-      <div className="grid py-10 grid-cols-1 md:h-60  items-center gap-10 md:gap-20 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid py-10 grid-cols-1 md:min-h-60  items-center gap-10 md:gap-20 md:grid-cols-2 lg:grid-cols-4">
         <Turbidity turbidity={turbidity} />
         <PHLevel ph={ph} />
         <Conductivity conductivity={conductivity} />
