@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-stone-100 px-10  overflow-y-scroll h-screen `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-stone-100 px-3 md:px-10  overflow-y-scroll h-screen `}
       >
         <ThemeProvider
           attribute="class"
