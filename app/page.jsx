@@ -14,9 +14,6 @@ import {
 import { supabase } from "@/supabase";
 import ChangeGoal from "./_components/ChangeGoal";
 
-export const dynamic = "force-dynamic";
-export const revalidate = 0;
-
 export default function Home() {
   const [lastInsert, setLastInsert] = useState(null);
   const [todayUsage, setTodayUsage] = useState(null);
