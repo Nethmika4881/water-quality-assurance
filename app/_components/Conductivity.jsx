@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 function Conductivity({ conductivity }) {
   return (
     <Card className="w-full h-40 ">
