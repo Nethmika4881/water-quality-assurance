@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Water Quiality Assurance ",
+  title: "Water Quality Assurance ",
   description: "A project done by KDU students",
 };
 
