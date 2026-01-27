@@ -92,7 +92,10 @@ export default function Home() {
     );
   }
 
-  if (!lastInsert || !todayUsage || !goal) {
+  if (!lastInsert || !goal) {
+    console.log(lastInsert);
+    console.log(todayUsage);
+    console.log(goal);
     return (
       <div className="flex items-center justify-center min-h-screen">
         <div className="text-lg">No data available</div>
